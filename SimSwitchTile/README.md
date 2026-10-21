@@ -1,10 +1,12 @@
 # SimSwitch 控制端
 
-配合 **SoftApHelper-LAN**（Xposed 模块，跑在目标机 `system_server` 里）远程切换目标机的默认数据卡。
+配合 [SoftApHelper-LAN](../SoftApHelper-LAN/)（Xposed 模块，跑在目标机 `system_server` 里）远程切换目标机的默认数据卡。
 支持两种通道，按配置自动选择：
 
 - **局域网 HTTP**：目标机和本机在同一 Wi-Fi / 热点下，走 `http://目标IP:8080`
 - **MQTT（EMQX）**：目标机不在同一局域网时走公网 broker
+
+安装包下载见 [Releases](https://github.com/Empty-City-L/SoftApHelper/releases)。
 
 ## 使用
 
