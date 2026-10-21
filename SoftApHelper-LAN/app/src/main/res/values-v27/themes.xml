@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Android 8.0+ 支持深色导航栏图标，配合白色导航栏使用 -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+</resources>

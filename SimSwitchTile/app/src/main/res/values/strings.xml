@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SimSwitch 控制端</string>
+    <string name="subtitle">远程切换目标手机的默认数据卡</string>
+    <string name="section_server">目标机</string>
+    <string name="hint_pin">PIN（目标机 App 里显示）</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_test">刷新状态</string>
+    <string name="section_switch">切换</string>
+    <string name="btn_sim1">切到卡1</string>
+    <string name="btn_sim2">切到卡2</string>
+    <string name="btn_mqtt_toggle">测试 MQTT 连接</string>
+    <string name="saved">已保存</string>
+    <string name="requesting">请求中…</string>
+    <string name="tile_label">切卡</string>
+    <string name="section_mqtt">MQTT 远程（EMQX）</string>
+    <string name="hint_mqtt_host">broker 地址</string>
+    <string name="hint_mqtt_user">用户名</string>
+    <string name="hint_mqtt_pass">密码</string>
+    <string name="hint_mqtt_device">设备 ID（与目标机一致）</string>
+    <string name="btn_save_mqtt">保存并连接</string>
+    <string name="mqtt_saved">MQTT 配置已保存</string>
+
+    <string name="hint_tile">用完后可以在「快捷设置」编辑磁贴，把 SimSwitch 加上去，点一下就会在卡1/卡2之间切换。</string>
+</resources>

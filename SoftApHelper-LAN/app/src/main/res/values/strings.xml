@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SoftApHelper</string>
+    <string name="subtitle">固定热点网关地址</string>
+    <string name="desc">修改后需重新开关热点（或重启共享）才会生效。</string>
+
+    <string name="section_ip">固定网关 IP</string>
+    <string name="label_wifi">WiFi</string>
+    <string name="label_usb">USB</string>
+    <string name="label_bt">蓝牙</string>
+    <string name="label_p2p">WiFi P2P</string>
+    <string name="label_ethernet">以太网</string>
+    <string name="hint_ip">例如 192.168.43.1</string>
+
+    <string name="section_eth">以太网共享</string>
+    <string name="switch_eth">常驻以太网共享（插上网卡自动开启，掉了自动重开）</string>
+    <string name="switch_usb">常驻 USB 网络共享（插上数据线自动开启，掉了自动重开）</string>
+    <string name="hint_eth">需要 USB-C 转以太网网卡；开启后模块会一直尝试把手机网络共享给 eth0。</string>
+
+    <string name="section_sim">远程切卡</string>
+    <string name="hint_sim">同一局域网内用浏览器打开上面的地址，输入 PIN 可切换默认数据卡。</string>
+    <string name="btn_sim_refresh">刷新切卡状态</string>
+    <string name="label_pin">PIN</string>
+    <string name="btn_save_pin">保存 PIN</string>
+    <string name="pin_invalid">PIN 必须是 4 位数字</string>
+    <string name="pin_saved">PIN 已保存</string>
+    <string name="reading">读取中…</string>
+
+    <string name="section_mqtt">远程 MQTT（EMQX）</string>
+    <string name="hint_mqtt_host">broker 地址，例如 eb0f1553.ala.cn-shenzhen.emqxsl.cn</string>
+    <string name="hint_mqtt_user">用户名</string>
+    <string name="hint_mqtt_pass">密码</string>
+    <string name="hint_mqtt_device">设备 ID，例如 xiaomi14</string>
+    <string name="btn_save_mqtt">保存并重连</string>
+    <string name="mqtt_saved">MQTT 配置已保存，约 10 秒内生效</string>
+
+    <string name="btn_save">保存</string>
+    <string name="btn_reset">重置</string>
+
+    <string name="version_prefix">v%1$s</string>
+    <string name="hint_saved">已保存。重新开关热点后生效。</string>
+    <string name="hint_reset">已恢复默认值，保存后生效。</string>
+    <string name="hint_empty">修改后点「保存」，再重新开关热点。</string>
+
+    <string name="toast_saved">已保存</string>
+    <string name="toast_ip_invalid">%1$s 的 IP 格式不正确：%2$s（示例 192.168.43.1，不要带 /24）</string>
+</resources>

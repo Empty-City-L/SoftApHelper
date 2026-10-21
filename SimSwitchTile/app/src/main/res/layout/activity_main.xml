@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clipToPadding="false"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#111111"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/subtitle"
+            android:textColor="#6B7280"
+            android:textSize="13sp" />
+
+        <TextView
+            style="@style/SectionTitle"
+            android:text="@string/section_server" />
+
+        <EditText
+            android:id="@+id/et_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:digits="0123456789"
+            android:hint="@string/hint_pin"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/btn_save"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/btn_test"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="monospace"
+            android:textColor="#374151"
+            android:textSize="13sp" />
+
+        <TextView
+            style="@style/SectionTitle"
+            android:text="@string/section_switch" />
+
+        <Button
+            android:id="@+id/btn_sim1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/btn_sim1"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_sim2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/btn_sim2"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_mqtt_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/btn_mqtt_toggle"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="monospace"
+            android:textColor="#374151"
+            android:textSize="13sp" />
+
+        <TextView
+            style="@style/SectionTitle"
+            android:text="@string/section_mqtt" />
+
+        <EditText
+            android:id="@+id/et_mqtt_host"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_mqtt_host"
+            android:inputType="textUri"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_mqtt_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_mqtt_user"
+            android:inputType="text"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_mqtt_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_mqtt_pass"
+            android:inputType="textPassword"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_mqtt_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_mqtt_device"
+            android:inputType="text"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_save_mqtt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/btn_save_mqtt"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/hint_tile"
+            android:textColor="#6B7280"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</ScrollView>
