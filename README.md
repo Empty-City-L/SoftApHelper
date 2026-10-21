@@ -9,7 +9,9 @@
 
 ## 下载
 
-已签名的安装包见 [Releases](https://github.com/Empty-City-L/SoftApHelper/releases)。
+- 已签名安装包：[Releases](https://github.com/Empty-City-L/SoftApHelper/releases)
+- 完整源码包：[SoftApHelper-v1.407-source.zip](https://github.com/Empty-City-L/SoftApHelper/releases/download/v1.407/SoftApHelper-v1.407-source.zip)（含两个工程与 Gradle Wrapper）
+- 也可以在仓库页面 **Code → Download ZIP** 下载源码
 
 ## 构建
 
